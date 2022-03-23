@@ -1,18 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .outline{
-    width:1400px;
+    width:;
     background: white;
 }
 
-.help{
+.outhelp{
     width: 100%;
-    flex-wrap: wrap;
     display: flex;
     font-size: 18px;
-    align-self: flex-end;
     background-color: black;
     justify-content: flex-end;
 }
-.help1{
+.help{
     text-decoration: none;
     color: azure;
     font-size: 16px;
@@ -20,6 +22,8 @@
 }
 .listtitle{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .listtitle img{
     width: 10%;
@@ -28,15 +32,17 @@
     padding: 10px;
 }
 
-.listtitle a{
+.listtitle .menu{
     padding: 10px;
     width: 80%;
     text-decoration: none;
     margin: 10px;
     font-size: 18px;
     background-color: rgb(255, 255, 255);
+    list-style: none;
     
 }
+
 .listtitle .regist
 {
     width: 10%;
