@@ -1,10 +1,11 @@
 *{
     margin: 0;
+    
 }
 
 
 .outhelp{
-    width: 100%;
+    width: 1600px;
     display: flex;
     font-size: 18px;
     background-color: black;
@@ -33,7 +34,9 @@
 }
 .menu li{
     margin: 15px;
-
+}
+.menu li a{
+    text-decoration: none;
 }
 .SHOPLINE img{
     width:90%;
