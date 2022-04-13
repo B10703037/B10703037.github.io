@@ -1,0 +1,102 @@
+.container{
+    width: 100%;
+    background-color: #fff;
+    
+}
+.help{
+    background-color: #aaa;
+    display: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #00142d;
+}
+.language ::after{
+    content: "|";
+    color: #fff;
+    
+}
+.row a{
+    text-decoration: none;
+    color: #fff;
+}
+/* phone */
+.nav-menu{
+    display: flex;
+    justify-content:space-between;
+}
+.logo img{
+    width: 60%;
+    padding: 10px;
+}
+.ham-list button{
+    font-size: 20px;
+    display: none;
+    
+}
+/* #control-ham{
+    display: none;
+} */
+#control-ham:checked +.ham-list .list-menu{
+    display: block;
+}
+
+
+
+
+
+
+.list-menu{
+    list-style: none;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-menu a{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.list-menu .nav-url{
+    border-bottom: 1px solid #eee;
+}
+
+.list-menu button{
+    width: 100%;
+    padding: 1%;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 16px;
+}
+.list-menu .btn-blue{
+    background-color: #00f;
+    border-color: transparent;
+}
+.list-menu .btn-blue a{
+    color: #fff;
+}
+.list-menu .btn-white{
+    background-color: #fff;
+    border-color: #00f;
+}
+.list-menu .btn-white a{
+    color: #00f;
+}
+.last-btn{
+    display: flex;
+    
+}
+.last-btn a{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
